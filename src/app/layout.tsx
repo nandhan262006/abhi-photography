@@ -47,12 +47,27 @@ export const metadata: Metadata = {
     icon: "/favicon.png",
   },
   openGraph: {
-  title: "ABHI PHOTOGRAPHY | Khammam's Professional Photography Studio",
+    title: "ABHI PHOTOGRAPHY | Khammam's Professional Photography Studio",
     description:
       "ABHI PHOTOGRAPHY — Professional photography studio in Khammam, Telangana, capturing weddings, portraits, pre-weddings, events, and timeless moments with creativity and emotion.",
     type: "website",
     locale: "en_IN",
     siteName: "Abhi Photography",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1734,
+        height: 907,
+        alt: "ABHI PHOTOGRAPHY — Professional photography studio in Khammam",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ABHI PHOTOGRAPHY | Khammam's Professional Photography Studio",
+    description:
+      "Professional photography studio in Khammam, Telangana — weddings, portraits, pre-weddings, events, and timeless moments.",
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
