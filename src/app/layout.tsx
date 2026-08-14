@@ -29,7 +29,7 @@ const greatVibes = Great_Vibes({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://abhiphotography.in"),
+  metadataBase: new URL("https://abhi-photography-three.vercel.app"),
     title: "ABHI PHOTOGRAPHY | Khammam's Professional Photography Studio",
   description:
     "ABHI PHOTOGRAPHY — Professional photography studio in Khammam, Telangana, capturing weddings, portraits, pre-weddings, events, and timeless moments with creativity and emotion.",
@@ -87,7 +87,7 @@ const LOCAL_BUSINESS_JSON_LD = {
   name: "Abhi Photography",
   description:
     "Khammam's most trusted photography studio. Wedding, pre-wedding, maternity, kids, baby and portrait photography.",
-  url: "https://abhiphotography.in",
+  url: "https://abhi-photography-three.vercel.app",
   image: "/logo.png",
   telephone: "+918125783426",
   priceRange: "₹₹",
